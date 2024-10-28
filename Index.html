@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Espaço de Bem-Estar | Terapia e Saúde Mental</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { text-align: center; padding: 20px; background-color: #4CAF50; color: white; }
+        header h1 { font-size: 24px; margin: 0; }
+        .btn-agendar { color: white; background-color: #f76c6c; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        section { padding: 20px; }
+        h2 { color: #333; }
+        .servico, #depoimentos, #contato { margin-bottom: 20px; }
+        form label { display: block; margin: 10px 0 5px; }
+        form input, form textarea { width: 100%; padding: 8px; margin-bottom: 10px; }
+        form button { background-color: #4CAF50; color: white; padding: 10px; border: none; cursor: pointer; }
+        form button:hover { background-color: #45a049; }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Bem-vindo ao seu espaço de transformação e bem-estar</h1>
+        <p>Um ambiente seguro e profissional para sua jornada de autoconhecimento e mudança.</p>
+        <a href="#contato" class="btn-agendar">Agendar Consulta</a>
+    </header>
+
+    <!-- Sobre Mim -->
+    <section id="sobre">
+        <h2>Conheça [Seu Nome]</h2>
+        <p>Sou uma profissional especializada em Terapia Sistêmica, Reprogramação Mental, Hipnose e Terapia Comportamental, com foco em ajudar meus clientes a superarem desafios e alcançarem equilíbrio emocional. Com uma abordagem humanizada e técnicas científicas, trabalho para promover o bem-estar mental e o crescimento pessoal.</p>
+        <h3>Missão</h3>
+        <p>Minha missão é ajudar cada pessoa a redescobrir seu poder interno, alcançando um estado de harmonia e felicidade.</p>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <div class="servico">
+            <h3>Terapia Sistêmica</h3>
+            <p>Enfoque na compreensão das relações familiares e sociais, identificando padrões de comportamento que impactam a vida.</p>
+        </div>
+        <div class="servico">
+            <h3>Reprogramação Mental</h3>
+            <p>Técnicas para reestruturar pensamentos e crenças limitantes, ajudando a construir uma mentalidade positiva.</p>
+        </div>
+        <div class="servico">
+            <h3>Hipnose</h3>
+            <p>Uso de hipnose clínica para acessar o subconsciente e trabalhar questões emocionais de forma rápida e eficaz.</p>
+        </div>
+        <div class="servico">
+            <h3>Terapia Comportamental</h3>
+            <p>Aplicação de métodos práticos para mudar padrões de comportamento, promovendo mais autonomia emocional.</p>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos">
+        <h2>Histórias de Transformação</h2>
+        <p>Leia os relatos de quem já passou por esse caminho de autoconhecimento e transformação.</p>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato">
+        <h2>Agende sua consulta</h2>
+        <p>Telefone: <a href="tel:+5511958272576">(11) 95827-2576</a></p>
+        <p>WhatsApp: <a href="https://wa.me/5511958272576" target="_blank">Clique aqui para enviar uma mensagem</a></p>
+        
+        <form action="#" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+</body>
+</html>
